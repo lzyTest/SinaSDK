@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "051B6AAE8DC50CBA29956025FE01549E16FB7BF6" : 0,
+    "607455898F648DBE5169CC7F626C6A329CE4179E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6C6541A3-41E7-47F9-A8D6-B2B4814F3261",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "051B6AAE8DC50CBA29956025FE01549E16FB7BF6" : "",
+    "607455898F648DBE5169CC7F626C6A329CE4179E" : "..\/..\/Desktop\/Sina%20SDK\/weibo_ios_sdk"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SinaSDK",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SinaSDK.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lzyTest\/SinaSDK.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "051B6AAE8DC50CBA29956025FE01549E16FB7BF6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:sinaweibosdk\/weibo_ios_sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "607455898F648DBE5169CC7F626C6A329CE4179E"
+    }
+  ]
+}
