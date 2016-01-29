@@ -7,9 +7,13 @@
 //
 
 #import <XCTest/XCTest.h>
+#include <XCTest/XCTestAssertions.h>
 #import <WeiboSDK.h>
 
 @interface SinaSDKTests : XCTestCase
+
+@property (nonatomic, strong) WeiboSDK *weibo;
+@property (nonatomic, strong) NSString *appKey;
 
 @end
 
@@ -18,6 +22,9 @@
 - (void)setUp {
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    self.weibo = [[WeiboSDK alloc] init];
+    self.appKey = @"917163948";
 }
 
 - (void)tearDown {
@@ -38,6 +45,11 @@
 }
 
 
+- (void)testRegisterApp{
+    BOOL result = [WeiboSDK registerApp:self.appKey];
+    assert(result);
+    
+}
 
 - (void)testGetAccessToken{
     
